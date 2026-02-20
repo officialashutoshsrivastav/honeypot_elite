@@ -1,0 +1,8 @@
+PHONE = r'\+91\d{10}\b|\b\d{10}\b'
+ACCOUNT = r'\b\d{12,18}\b'
+UPI = r'[a-zA-Z0-9.\-_]{2,256}@[a-zA-Z]{3,}\b'
+URL = r'https?://[^\s]+'
+EMAIL = r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'
+CASE = r'\b[A-Z]{2,}-?\d{3,}\b'
+ORDER = r'\bORD\d+\b'
+POLICY = r'\bPOL\d+\b'
